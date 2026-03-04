@@ -1,0 +1,208 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'time new roman', times, serif;
+    background-image: url(fond3.jpg);
+    background-size: cover;
+}
+/* premier barre de navigation */
+.bnav{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    position: sticky;
+    height: 70px;
+    gap: 290px;
+}
+.recherche input{
+    outline: none;
+    margin-top: 20px;
+    width: 400px;
+    height: 30px;
+    border: solid aqua 1px;
+    border-radius: 30px;
+}
+.recherche button{
+    border-radius: 60%;
+    height: 33px;
+    border-color: aqua;
+    margin-top: 0px;
+    position: absolute;
+    top: 20px;
+}
+.contact{
+    display: flex;
+    gap: 20px;
+    margin-top: 20px;
+    margin-right: 10px;
+}
+.LOGO{
+    margin-top: 10px;
+}
+.contact img{
+    border-radius: 50px;
+    border: solid black;
+    transition: transform .1S;
+}
+.contact img:hover{
+    -ms-transform: scale(1,2);
+    -webkit-transform: scale(1,2);
+    transform: scale(1,2);
+}
+.cont1 a{
+    color: rgb(2, 162, 207);
+    padding-bottom: 20px;
+    text-decoration: none;
+    border-radius: solid;
+    border-radius: 10px;
+    position: absolute;
+    right: 160px;
+    top: 30px;
+}
+.cont1 a:hover{
+    color: white;
+}
+/* partie video */
+.video video{
+    margin-left: 200px;
+    border-radius: 10px;
+    width: 800px;
+    height: 400px;
+}
+
+.video{
+    background-image: url(arrp\ apropos2.jpeg);
+    background-size: cover;
+    margin: 10px;
+}
+/* partie text */
+.text p{
+    color: white;
+    margin-left: 20px;
+}
+/* boutique */
+.boutique{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+.boutique img{
+    border: solid aqua 1px;
+    margin-top: 30px;
+}
+.maps iframe{
+    border: solid aqua 1px;
+    margin-top: 30px;
+}
+/*s'incrire*/
+.inscription{
+    align-items: center;
+    margin-top: 40px;
+    display: flex;
+    gap: 380px;
+}
+.ins1{
+    align-items: end;
+    margin-left: 20px;
+}
+.ins1 p{
+    color: white;
+}
+.ins2{
+    display: flex;
+    align-items: start;
+    margin-right: 0px;
+    gap: 10px;
+}
+.ins2 button{
+    background-color: aqua;
+    color: white;
+    border-radius: 10px;
+    width: 100px;
+    height: 40px;
+}.ins2 input{
+    outline: none;
+    width: 300px;
+    height: 40px;
+}
+.hr{
+    color: aqua;
+}
+/* bas page1 */
+.bas1{
+    justify-content: center;
+    display: flex;
+    gap: 100px;
+}
+.b1 {
+    margin-left: 10px;
+    align-items: end;
+}
+.b1 p{
+   color: white;
+}
+.b2{
+    margin-left: 10px;
+    align-items: end;
+}
+.b2 p{
+   color: white;
+}
+.b3{
+    margin-left: 10px;
+    align-items: end;
+}
+.b3 p{
+   color: white;
+}
+.b4{
+    margin-left: 10px;
+    align-items: end;
+}
+.b4 p{
+   color: white;
+}
+/* RESEAU */
+.reseau{
+    gap: 300px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+.reseau1 {
+    margin-left: 10px;
+    margin-bottom: 70px;
+    align-items: end;
+}
+.reseau1 p{
+   color: white;
+}
+.reseau1 i{
+    color: white;
+}
+.reseau2 p{
+    color: white;
+}
+.reseau22{
+    align-items: start;
+    gap: 5px;
+}
+.res2{
+    justify-content: right;
+    align-items: start;
+}
+/* Dernier partie */
+.bas3 p{
+    color: white;
+}
+.bas3 i{
+    color: white;
+}
+.bas3{
+    display: flex;
+    gap: 800px;
+    justify-content: center;
+}
+.bas33{
+    margin-top: 15px;
+}
